@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	packagesmtp "golang-email/package-smtp"
+	packagegomail "golang-email/package-gomail"
 )
-
 
 func main() {
 	fmt.Println("Testing email")
-	packagesmtp.SendEmail()
+	// packagesmtp.SendEmail()
+	packagegomail.SendEmail()
 }
